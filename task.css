@@ -3,6 +3,7 @@
     width: auto;
     background-color: white;
     text-align: center;
+
 }
 
 .secondD {
@@ -10,6 +11,8 @@
     width: 100%;
     background: linear-gradient(84.12deg, #1B45B4 2.94%, #1C2792 96.29%);
     /* border: rgb(233, 158, 20) solid 2px; */
+    position: relative;
+    overflow: hidden;
 }
 
 .secondD::before {
@@ -41,7 +44,6 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 110%;
-    text-align: center;
     color: #0097FE;
 }
 
@@ -49,6 +51,8 @@
     height: 423px;
     width: auto;
     background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
 }
 
 .thirdD::before {
@@ -57,7 +61,7 @@
     bottom: 1;
     right: 1;
     border-bottom: 200px solid white;
-    border-left: 1247px solid #1B45B4;
+    border-left: 1247px solid #2d3bb7;
     width: 0;
 }
 
@@ -121,7 +125,7 @@
     width: 240px;
     height: 240px;
     left: 696px;
-    top: 684px;
+    top: 273px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 43px 100px -35px rgba(0, 0, 0, 0.1);
@@ -133,7 +137,7 @@
     width: 240px;
     height: 240px;
     left: 696px;
-    top: 948px;
+    top: 537px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 43px 100px -35px rgba(0, 0, 0, 0.1);
@@ -145,7 +149,7 @@
     width: 240px;
     height: 240px;
     left: 954px;
-    top: 828px;
+    top: 429px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 43px 100px -35px rgba(0, 0, 0, 0.1);
@@ -213,4 +217,254 @@ p {
     text-align: center;
     padding: 3px;
     color: #68718B;
+}
+
+@media screen and (max-width: 1230px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+    }
+
+    .fb {
+        left: 620px;
+    }
+
+    .twitter {
+        left: 620px;
+    }
+
+    .google {
+        left: 880px;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+        font-size: 40px;
+    }
+
+    .firstD {
+        height: 360px;
+        width: auto;
+        background-color: white;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width: 1158px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+    }
+
+    .fb {
+        left: 520px;
+    }
+
+    .twitter {
+        left: 520px;
+    }
+
+    .google {
+        left: 780px;
+    }
+
+    .textBox {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1058px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+    }
+
+    .fb {
+        left: 60px;
+        margin-top: 300px;
+    }
+
+    .twitter {
+        left: 360px;
+        margin-top: 36px;
+
+    }
+
+    .google {
+        left: 660px;
+        margin-top: 144px;
+
+    }
+
+    .textBox {
+        margin-top: 200px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+
+    .fb {
+        left: 60px;
+        margin-top: 300px;
+    }
+
+    .twitter {
+        left: 320px;
+        margin-top: 36px;
+
+    }
+
+    .google {
+        left: 580px;
+        margin-top: 144px;
+
+    }
+
+}
+
+@media screen and (max-width: 855px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+    }
+
+    .fb {
+        left: 20px;
+        margin-top: 300px;
+    }
+
+    .twitter {
+        left: 280px;
+        margin-top: 36px;
+
+    }
+
+    .google {
+        left: 540px;
+        margin-top: 144px;
+    }
+
+    .textBox {
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+    }
+
+    .fb {
+        left: 20px;
+        margin-top: 300px;
+    }
+
+    .twitter {
+        left: 340px;
+        margin-top: 36px;
+    }
+
+    .google {
+        left: 180px;
+        margin-top: 460px;
+    }
+
+    .textBox {
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    .secondD {
+        height: 1150px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .text1 {
+        width: auto;
+        left: 30px;
+    }
+    .img1{
+        height: 40px;
+        width: 30%;
+    }
+    .fb {
+        left: 20px;
+        margin-top: 300px;
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-right: 5px;
+
+    }
+
+    .twitter {
+        left: 20px;
+        margin-top: 270px;
+        width: auto;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    .google {
+        left: 20px;
+        margin-top: 610px;
+        width: auto;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    .textBox {
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    .secondD {
+        height: 1350px;
+        width: 100%;
+    }
+
+    .fbtg {
+        margin-left: 230px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fb {
+        left: 5px;
+    }
+
+    .twitter {
+        left: 5px;
+    }
+
+    .google {
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fbtg {
+        margin-left: 190px;
+    }
+    
+    .secondD {
+        height: 1270px;
+        width: 100%;
+    }
+    .text1 {
+        width: auto;
+        left: 0px;
+        font-size: 40px;
+    }
+
 }
