@@ -1,5 +1,5 @@
 .firstD {
-    height: 423px;
+    height: 523px;
     width: auto;
     background-color: white;
     text-align: center;
@@ -11,18 +11,14 @@
     width: 100%;
     background: linear-gradient(84.12deg, #1B45B4 2.94%, #1C2792 96.29%);
     /* border: rgb(233, 158, 20) solid 2px; */
-    position: relative;
-    overflow: hidden;
+
+
+    transform: skewY(351deg);
+
 }
 
-.secondD::before {
-    content: '';
-    position: absolute;
-    top: 1;
-    left: 1;
-    border-top: 200px solid white;
-    border-right: 1247px solid #1B45B4;
-    width: 0;
+.links {
+    transform: skewY(9deg);
 }
 
 .img1 {
@@ -52,23 +48,14 @@
     width: auto;
     background-color: rgb(255, 255, 255);
     position: relative;
-    overflow: hidden;
+    margin-top: 100px;
 }
 
-.thirdD::before {
-    content: '';
-    position: absolute;
-    bottom: 1;
-    right: 1;
-    border-bottom: 200px solid white;
-    border-left: 1247px solid #2d3bb7;
-    width: 0;
-}
 
 .textBox {
     position: absolute;
     margin-left: 176px;
-    margin-top: 402px;
+    margin-top: 302px;
     /* border: #c90b0b 2px solid; */
     height: 330px;
     width: 30%;
@@ -125,11 +112,12 @@
     width: 240px;
     height: 240px;
     left: 696px;
-    top: 273px;
+    top: 190px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 43px 100px -35px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    z-index: 1;
 }
 
 .twitter {
@@ -137,11 +125,12 @@
     width: 240px;
     height: 240px;
     left: 696px;
-    top: 537px;
+    top: 450px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 43px 100px -35px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    z-index: 1;
 }
 
 .google {
@@ -149,11 +138,12 @@
     width: 240px;
     height: 240px;
     left: 954px;
-    top: 429px;
+    top: 329px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 43px 100px -35px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    z-index: 1;
 }
 
 .sociallogo0 {
@@ -212,11 +202,46 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
     margin-top: -26px;
     text-align: center;
     padding: 3px;
     color: #68718B;
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 82.71%;
+    right: 0;
+    top: 10.92%;
+    bottom: 78.35%;
+    background: #0097FE;
+    transform: skewY(358deg);
+    z-index: -1;
+}
+
+.rectangle2 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 46.7%;
+    right: 17.2%;
+    top: 22.9%;
+    bottom: 64.85%;
+    opacity: 0.5;
+    border: 1px solid #66C1FF;
+    transform: skewY(358deg);
+    z-index: -1;
+}
+
+.rectangle3 {
+    position: absolute;
+    left: 0.0%;
+    right: 82.71%;
+    top: 82.58%;
+    bottom: 7.8%;
+    background: #0097FE;
+    opacity: 0.5;
+    transform: skewY(358deg);
+    z-index: -1;
 }
 
 @media screen and (max-width: 1230px) {
@@ -236,10 +261,8 @@ p {
     .google {
         left: 880px;
     }
-    .thirdD::before {
-        border-bottom: 190px solid white;
-        border-left: 1200px solid #2d3bb7;
-    }
+
+
 }
 
 @media screen and (max-width: 821px) {
@@ -279,10 +302,8 @@ p {
     .textBox {
         margin-left: 60px;
     }
-    .thirdD::before {
-        border-bottom: 170px solid white;
-        border-left: 1130px solid #2d3bb7;
-    }
+
+
 }
 
 @media screen and (max-width: 1058px) {
@@ -298,24 +319,22 @@ p {
 
     .twitter {
         left: 360px;
-        margin-top: 36px;
+        margin-top: 40px;
 
     }
 
     .google {
         left: 660px;
-        margin-top: 144px;
+        margin-top: 160px;
 
     }
 
     .textBox {
-        margin-top: 200px;
+        margin-top: 152px;
         margin-left: 60px;
     }
-    .thirdD::before {
-        border-bottom: 130px solid white;
-        border-left: 1030px solid #2d3bb7;
-    }
+
+
 }
 
 @media screen and (max-width: 955px) {
@@ -326,19 +345,22 @@ p {
     }
 
     .twitter {
-        left: 320px;
-        margin-top: 36px;
+        left: 360px;
+        margin-top: 40px;
 
     }
 
     .google {
-        left: 580px;
-        margin-top: 144px;
+        left: 660px;
+        margin-top: 160px;
 
     }
-    .thirdD::before {
-        border-bottom: 140px solid white;
-        border-left: 930px solid #2d3bb7;
+
+    .rectangle2 {
+        left: 51.7%;
+        right: 17.2%;
+        top: 22.9%;
+        bottom: 67%;
     }
 
 }
@@ -358,7 +380,7 @@ p {
 
     .twitter {
         left: 340px;
-        margin-top: 36px;
+        margin-top: 40px;
     }
 
     .google {
@@ -367,7 +389,7 @@ p {
     }
 
     .textBox {
-        margin-top: 200px;
+        margin-top: 152px;
         margin-left: 20px;
     }
 
@@ -375,10 +397,13 @@ p {
         height: 1150px;
         width: 100%;
     }
-    .thirdD::before {
-        border-bottom: 130px solid white;
-        border-left: 840px solid #2d3bb7;
+    .rectangle2 {
+        left: 51.7%;
+        right: 17.2%;
+        top: 22.9%;
+        bottom: 67%;
     }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -386,10 +411,12 @@ p {
         width: auto;
         left: 30px;
     }
-    .img1{
+
+    .img1 {
         height: 40px;
         width: 30%;
     }
+
     .fb {
         left: 20px;
         margin-top: 300px;
@@ -402,7 +429,7 @@ p {
 
     .twitter {
         left: 20px;
-        margin-top: 270px;
+        margin-top: 280px;
         width: auto;
         height: auto;
         margin-right: 5px;
@@ -410,14 +437,14 @@ p {
 
     .google {
         left: 20px;
-        margin-top: 610px;
+        margin-top: 640px;
         width: auto;
         height: auto;
         margin-right: 5px;
     }
 
     .textBox {
-        margin-top: 200px;
+        margin-top: 152px;
         margin-left: 20px;
     }
 
@@ -429,16 +456,26 @@ p {
     .fbtg {
         margin-left: 230px;
     }
-    .thirdD::before {
-        border-bottom: 90px solid white;
-        border-left: 600px solid #2d3bb7;
+    .rectangle3 {
+        right: 78.71%;
+        top: 92.58%;
+        bottom: 2.8%;
     }
+
+    .rectangle2 {
+        left: 32.7%;
+        right: 17.2%;
+        top: 22.1%;
+        bottom: 72%;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
     .fbtg {
         margin-left: 190px;
     }
+
     .fb {
         left: 5px;
     }
@@ -450,18 +487,29 @@ p {
     .google {
         left: 5px;
     }
+
     .secondD {
         height: 1270px;
         width: 100%;
     }
+
     .text1 {
         width: auto;
         left: 30px;
         font-size: 40px;
     }
-    .thirdD::before {
-        border-bottom: 80px solid white;
-        border-left: 510px solid #2d3bb7;
+
+    .rectangle3 {
+        right: 78.71%;
+        top: 92.58%;
+        bottom: 2.8%;
+    }
+
+    .rectangle2 {
+        left: 32.7%;
+        right: 17.2%;
+        top: 21.9%;
+        bottom: 72%;
     }
 
 }
